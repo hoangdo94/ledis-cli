@@ -1,0 +1,43 @@
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+.terminal-header {
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    font-style: bold;
+    font-size: 125%;
+}
+
+.terminal-body {
+    margin: 10px;
+}
+
+.terminal-command {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.terminal-response {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 90%;
+}
+
+#command-input {
+    background-color: #000;
+    color: #fff;
+    width: calc(100% - 50px);
+    border: none !important;
+    padding: 0px;
+    font-size: 16px;
+}
+
+#command-input:focus {
+    outline-width: 0;
+}
