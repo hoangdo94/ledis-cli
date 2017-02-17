@@ -1,7 +1,7 @@
 $(document).ready(function() {
     console.log('ledis-cli');
     // Variables & functions
-    var endpoint = 'http://localhost:8080/';
+    var endpoint = 'http://188.166.254.210:8080/';
     var cmds = [],
         cmdIdx = -1;
 

@@ -36,6 +36,7 @@ body {
     border: none !important;
     padding: 0px;
     font-size: 16px;
+    font-family: "Courier New", Courier, monospace;
 }
 
 #command-input:focus {
